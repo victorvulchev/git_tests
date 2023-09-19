@@ -5,7 +5,7 @@ y2 = int(input("coordinates for y2:"))
 import math
 
 distance_1 = math.sqrt(x1**2 + y1**2)
-distance_2 = math.sqrt(x1**2 + y1**2)
+distance_2 = math.sqrt(x2**2 + y2**2)
 
 if distance_1 == distance_2:
     print("they are the same distance away from the start")
