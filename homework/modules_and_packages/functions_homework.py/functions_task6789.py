@@ -31,4 +31,4 @@ def task_9(a_list):
     return f"Even numbers: {len(evens)} \nOdd numbers: {len(odds)}"
 
 print(task_9(list1))
-    
+    #hello test
