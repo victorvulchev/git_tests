@@ -1,0 +1,188 @@
+{
+    "_id": {
+        "$oid": "5553a998e4b02cf7151190c2"
+    },
+    "st": "x+68400+011800",
+    "ts": {
+        "$date": {
+            "$numberLong": "447346800000"
+        }
+    },
+    "position": {
+        "type": "Point",
+        "coordinates": [
+            {
+                "$numberDouble": "11.8"
+            },
+            {
+                "$numberDouble": "68.4"
+            }
+        ]
+    },
+    "elevation": {
+        "$numberInt": "9999"
+    },
+    "callLetters": "LAQU",
+    "qualityControlProcess": "V020",
+    "dataSource": "4",
+    "type": "FM-13",
+    "airTemperature": {
+        "value": {
+            "$numberDouble": "2.0"
+        },
+        "quality": "1"
+    },
+    "dewPoint": {
+        "value": {
+            "$numberDouble": "-2.0"
+        },
+        "quality": "1"
+    },
+    "pressure": {
+        "value": {
+            "$numberDouble": "999.3"
+        },
+        "quality": "1"
+    },
+    "wind": {
+        "direction": {
+            "angle": {
+                "$numberInt": "280"
+            },
+            "quality": "1"
+        },
+        "type": "N",
+        "speed": {
+            "rate": {
+                "$numberDouble": "12.3"
+            },
+            "quality": "1"
+        }
+    },
+    "visibility": {
+        "distance": {
+            "value": {
+                "$numberInt": "4000"
+            },
+            "quality": "1"
+        },
+        "variability": {
+            "value": "N",
+            "quality": "9"
+        }
+    },
+    "skyCondition": {
+        "ceilingHeight": {
+            "value": {
+                "$numberInt": "420"
+            },
+            "quality": "1",
+            "determination": "C"
+        },
+        "cavok": "N"
+    },
+    "sections": [
+        "AG1",
+        "AY1",
+        "GF1",
+        "MD1",
+        "MW1",
+        "SA1",
+        "UA1"
+    ],
+    "precipitationEstimatedObservation": {
+        "discrepancy": "2",
+        "estimatedWaterDepth": {
+            "$numberInt": "2"
+        }
+    },
+    "pastWeatherObservationManual": [
+        {
+            "atmosphericCondition": {
+                "value": "8",
+                "quality": "1"
+            },
+            "period": {
+                "value": {
+                    "$numberInt": "3"
+                },
+                "quality": "1"
+            }
+        }
+    ],
+    "skyConditionObservation": {
+        "totalCoverage": {
+            "value": "08",
+            "opaque": "99",
+            "quality": "1"
+        },
+        "lowestCloudCoverage": {
+            "value": "08",
+            "quality": "1"
+        },
+        "lowCloudGenus": {
+            "value": "09",
+            "quality": "1"
+        },
+        "lowestCloudBaseHeight": {
+            "value": {
+                "$numberInt": "450"
+            },
+            "quality": "1"
+        },
+        "midCloudGenus": {
+            "value": "99",
+            "quality": "9"
+        },
+        "highCloudGenus": {
+            "value": "99",
+            "quality": "9"
+        }
+    },
+    "atmosphericPressureChange": {
+        "tendency": {
+            "code": "2",
+            "quality": "1"
+        },
+        "quantity3Hours": {
+            "value": {
+                "$numberDouble": "1.3"
+            },
+            "quality": "1"
+        },
+        "quantity24Hours": {
+            "value": {
+                "$numberDouble": "99.9"
+            },
+            "quality": "9"
+        }
+    },
+    "presentWeatherObservationManual": [
+        {
+            "condition": "26",
+            "quality": "1"
+        }
+    ],
+    "seaSurfaceTemperature": {
+        "value": {
+            "$numberDouble": "6.0"
+        },
+        "quality": "9"
+    },
+    "waveMeasurement": {
+        "method": "M",
+        "waves": {
+            "period": {
+                "$numberInt": "6"
+            },
+            "height": {
+                "$numberDouble": "3.5"
+            },
+            "quality": "9"
+        },
+        "seaState": {
+            "code": "99",
+            "quality": "9"
+        }
+    }
+}
